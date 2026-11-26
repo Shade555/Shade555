@@ -166,7 +166,7 @@ A spatiotemporal disease-news signal tracker.
 
 ### The archive ledger
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shade555&show_icons=true&hide_border=true&bg_color=100B1E&title_color=E6C9FF&text_color=E9E0F5&icon_color=BD91E8&ring_color=BD91E8&rank_icon=github&include_all_commits=true" width="49%" alt="GitHub archive ledger"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Shade555&show_icons=true&hide_border=true&bg_color=100B1E&title_color=E6C9FF&text_color=E9E0F5&icon_color=BD91E8&ring_color=BD91E8&rank_icon=github" width="49%" alt="GitHub archive ledger"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shade555&layout=donut&hide_border=true&bg_color=100B1E&title_color=E6C9FF&text_color=E9E0F5" width="40%" alt="Language distribution instrument"/>
 
 ### The chronometer
