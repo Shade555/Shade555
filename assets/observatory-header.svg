@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="90" viewBox="0 0 1100 90">
+<defs><linearGradient id="l"><stop stop-color="#302044" stop-opacity="0"/><stop offset=".5" stop-color="#b88bdc"/><stop offset="1" stop-color="#302044" stop-opacity="0"/></linearGradient></defs>
+<path d="M0 45H1100" stroke="url(#l)" stroke-width="2"/>
+<path d="M30 45L48 27L66 45L48 63Z M1034 45L1052 27L1070 45L1052 63Z" fill="none" stroke="#a77acb" stroke-width="2"/>
+<path d="M520 45L550 18L580 45L550 72Z" fill="#171126" stroke="#d9b8f3" stroke-width="2"/>
+<text x="550" y="50" fill="#ead7fa" text-anchor="middle" font-family="Georgia,serif" font-size="20" letter-spacing="4">OBSERVATORY</text>
+</svg>

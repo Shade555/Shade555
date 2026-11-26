@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="430" viewBox="0 0 360 430">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171226"/><stop offset=".52" stop-color="#292044"/><stop offset="1" stop-color="#101321"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b78be8" stop-opacity=".48"/><stop offset="1" stop-color="#4e8cba" stop-opacity=".16"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="360" height="430" rx="16" fill="url(#bg)"/>
+<path d="M28 402V128Q28 35 180 18Q332 35 332 128V402Z" fill="url(#glass)" stroke="#c99de8" stroke-width="5"/>
+<path d="M43 390V130Q43 50 180 34Q317 50 317 130V390Z" fill="none" stroke="#73558e" stroke-width="2"/>
+<path d="M180 20V390 M31 266H329 M65 77L295 344 M295 77L65 344" stroke="#9e7aba" stroke-opacity=".65" stroke-width="2"/>
+<path d="M28 128Q180 2 332 128 M28 266Q180 340 332 266" fill="none" stroke="#d9b7f1" stroke-width="2"/>
+<g filter="url(#glow)">
+          <path d="M180 52L203 116H157Z" fill="#7251a0" stroke="#e4c8ff" stroke-width="3"/>
+          <path d="M180 52V235 M105 235H255 M120 235L180 116L240 235" fill="none" stroke="#d8b6ff" stroke-width="4"/>
+          <circle cx="180" cy="126" r="15" fill="#ffb4cf" stroke="#fff0ff" stroke-width="3"/>
+          <path d="M94 178Q180 126 266 178 M82 204Q180 143 278 204" fill="none" stroke="#9bdfff" stroke-width="3"/>
+          <circle cx="111" cy="172" r="6" fill="#ffb4cf"/><circle cx="249" cy="172" r="6" fill="#ffb4cf"/></g>
+<path d="M52 287H308" stroke="#c69ce5" stroke-width="2"/>
+<text x="180" y="322" fill="#f4e9ff" text-anchor="middle" font-family="Georgia,serif" font-size="22">Mumbai Signal Watch</text>
+<text x="180" y="350" fill="#c7a8df" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="3">ARCHIVE ENTRY 06</text>
+<path d="M125 374H235 M145 382H215" stroke="#8d6aaa" stroke-width="2"/>
+<path d="M180 364L188 374L180 384L172 374Z" fill="#e8caff"/>
+</svg>

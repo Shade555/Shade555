@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/arcane-city-banner.png" width="100%" alt="A gothic city of towers, bridges and luminous windows beneath a dramatic sky"/>
+<img src="assets/arcane-city-banner.png" width="100%" alt="Gothic cyber-fantasy city beneath a luminous sky"/>
 
-<img src="assets/archive-crest.svg" width="92" alt="Arcane Systems Archive crest"/>
+<img src="assets/archive-crest.svg" width="88" alt="Arcane Systems Archive crest"/>
 
 # SHADE555
 ### THE ARCANE SYSTEMS ARCHIVE
@@ -15,7 +15,7 @@
 
 `SYSTEM ONLINE` &nbsp; · &nbsp; `ACCESS: BUILDER` &nbsp; · &nbsp; `REALM: DATA × INTELLIGENCE`
 
-<img src="assets/living-divider.gif" width="100%" alt="Animated ornamental divider"/>
+<img src="assets/living-divider.gif" width="100%" alt="Animated arcane divider"/>
 
 </div>
 
@@ -36,102 +36,103 @@ I enjoy exploring datasets, finding patterns, building AI-powered tools, and tur
 
 <img src="assets/ornate-divider.svg" width="100%" alt="Ornamental divider"/>
 
-## II. The project codex
+## II. The stained-glass project gallery
 
-*Selected works, prototypes, and engineered instruments from the archive.*
+*Six instruments from the archive. Each window records a different kind of work.*
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" align="center" valign="top">
+<img src="assets/glass-01.svg" width="100%" alt="DigiPico stained-glass project panel"/>
+**01 · DigiPico**
 
-### 01 / DigiPico
-**An AI companion that makes technology less intimidating.**
-
-A gamified, mobile-first learning companion with a friendly AI tutor, personalised learning paths, quizzes, a JavaScript sandbox, XP, streaks, and achievements.
+An AI companion that makes technology less intimidating.
 
 `Next.js` `Gemma` `Mastra` `MongoDB` `TabPFN` `Capacitor`
 
-[OPEN PROJECT DOSSIER →](https://github.com/Shade555/DigiPico)
-
+[OPEN DOSSIER →](https://github.com/Shade555/DigiPico)
 </td>
-<td width="50%" valign="top">
+<td width="33%" align="center" valign="top">
+<img src="assets/glass-02.svg" width="100%" alt="Frameon stained-glass project panel"/>
+**02 · Frameon**
 
-### 02 / Frameon
-**A gallery with a second layer of intelligence.**
-
-An Android gallery and security suite featuring real-time media sync, background OCR scanning for sensitive information, spatial text analysis, Luhn validation, and biometric-protected storage.
+A gallery with a second layer of intelligence.
 
 `Kotlin` `Jetpack Compose` `ML Kit` `WorkManager` `Hilt`
 
-[OPEN PROJECT DOSSIER →](https://github.com/Shade555/Frameon)
-
+[OPEN DOSSIER →](https://github.com/Shade555/Frameon)
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" align="center" valign="top">
+<img src="assets/glass-03.svg" width="100%" alt="ProofPocket stained-glass project panel"/>
+**03 · ProofPocket**
 
-### 03 / ProofPocket
-**Paperwork in. Evidence-backed clarity out.**
-
-An open-weight AI paperwork agent that extracts and organises requirements, maps documents to evidence, flags missing information, and keeps a human in control of final decisions.
+Paperwork in. Evidence-backed clarity out.
 
 `Next.js` `TypeScript` `Gemma` `MongoDB` `OCR`
 
-[OPEN PROJECT DOSSIER →](https://github.com/Shade555/ProofPocket)
-
+[OPEN DOSSIER →](https://github.com/Shade555/ProofPocket)
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="3">
 
-### 04 / Patchwork AI
-**A local-first assistant for messy data.**
-
-A Windows desktop tool for profiling and cleaning CSV/XLSX data, combining deterministic checks with local open-weight AI suggestions and human-reviewed corrections.
-
-`C#` `.NET 8` `WPF` `Ollama` `ClosedXML`
-
-[OPEN PROJECT DOSSIER →](https://github.com/Shade555/patchwork-ai)
+An open-weight AI paperwork agent that extracts and organises requirements, maps documents to evidence, flags missing information, and keeps a human in control of final decisions.
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" align="center" valign="top">
+<img src="assets/glass-04.svg" width="100%" alt="Patchwork AI stained-glass project panel"/>
+**04 · Patchwork AI**
 
-### 05 / InterBrew
-**A gamified space for technical interview preparation.**
+A local-first assistant for messy data.
 
-A platform combining structured learning, AI-assisted mock interviews, interactive technical challenges, and performance tracking.
+`C#` `.NET 8` `WPF` `Ollama` `ClosedXML`
+
+[OPEN DOSSIER →](https://github.com/Shade555/patchwork-ai)
+</td>
+<td width="33%" align="center" valign="top">
+<img src="assets/glass-05.svg" width="100%" alt="InterBrew stained-glass project panel"/>
+**05 · InterBrew**
+
+A gamified space for technical interview preparation.
 
 `Next.js` `React` `TypeScript` `Supabase` `Groq`
 
-[OPEN PROJECT DOSSIER →](https://github.com/Shade555/InterBrew)
-
+[OPEN DOSSIER →](https://github.com/Shade555/InterBrew)
 </td>
-<td width="50%" valign="top">
+<td width="33%" align="center" valign="top">
+<img src="assets/glass-06.svg" width="100%" alt="Mumbai Signal Watch stained-glass project panel"/>
+**06 · Mumbai Signal Watch**
 
-### 06 / Mumbai Signal Watch
-**A spatiotemporal disease-news signal tracker.**
-
-A research build that ingests public news metadata, extracts disease signals, aggregates activity, and highlights unusual changes through a live dashboard. It tracks news signals, not confirmed case counts.
+A spatiotemporal disease-news signal tracker.
 
 `Next.js` `Python` `NLP` `Supabase` `NewsAPI`
 
-[OPEN PROJECT DOSSIER →](https://github.com/Shade555/spatiotemporal-disease-tracker)
-
+[OPEN DOSSIER →](https://github.com/Shade555/spatiotemporal-disease-tracker)
 </td>
 </tr>
 </table>
 
+**Project records**
+
+- **DigiPico:** A gamified, mobile-first learning companion with a friendly AI tutor, personalised learning paths, quizzes, a JavaScript sandbox, XP, streaks, and achievements.
+- **Frameon:** An Android gallery and security suite featuring real-time media sync, background OCR scanning for sensitive information, spatial text analysis, Luhn validation, and biometric-protected storage.
+- **Patchwork AI:** A Windows desktop tool for profiling and cleaning CSV/XLSX data, combining deterministic checks with local open-weight AI suggestions and human-reviewed corrections.
+- **InterBrew:** A platform combining structured learning, AI-assisted mock interviews, interactive technical challenges, and performance tracking.
+- **Mumbai Signal Watch:** A research build that ingests public news metadata, extracts disease signals, aggregates activity, and highlights unusual changes through a live dashboard. It tracks news signals, not confirmed case counts.
+
 <div align="center">
 
-[EXPLORE THE FULL REPOSITORY ARCHIVE →](https://github.com/Shade555?tab=repositories)
+[VIEW THE COMPLETE REPOSITORY ARCHIVE →](https://github.com/Shade555?tab=repositories)
 
 </div>
 
-<img src="assets/living-divider.gif" width="100%" alt="Animated ornamental divider"/>
+<img src="assets/living-divider.gif" width="100%" alt="Animated arcane divider"/>
 
 ## III. The technology grimoire
 
-*Tools, languages, and frameworks in the working collection.*
+*The instruments, languages, and frameworks in the working collection.*
 
 <div align="center">
 
@@ -155,24 +156,30 @@ A research build that ingests public news metadata, extracts disease signals, ag
 
 <img src="assets/ornate-divider.svg" width="100%" alt="Ornamental divider"/>
 
-## IV. Observatory readings
+## IV. The observatory
 
-*Live measurements from the public engineering record.*
+*Live readings from the public engineering record.*
 
 <div align="center">
 
-### GitHub activity
+<img src="assets/observatory-header.svg" width="100%" alt="Observatory title ornament"/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shade555&show_icons=true&hide_border=true&bg_color=100B1E&title_color=C9A7FF&text_color=E9E0F5&icon_color=9D7BE8&rank_icon=github" height="170" alt="GitHub statistics"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shade555&layout=compact&hide_border=true&bg_color=100B1E&title_color=C9A7FF&text_color=E9E0F5" height="170" alt="Most used languages"/>
+### The archive ledger
 
-<img src="https://streak-stats.demolab.com?user=Shade555&hide_border=true&background=100B1E&ring=9D7BE8&fire=E5B6FF&currStreakLabel=C9A7FF&sideLabels=C9B9E8&dates=8B80A5&currStreakNum=F4EAFE&sideNums=F4EAFE" width="75%" alt="Contribution streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Shade555&show_icons=true&hide_border=true&bg_color=100B1E&title_color=E6C9FF&text_color=E9E0F5&icon_color=BD91E8&ring_color=BD91E8&rank_icon=github&include_all_commits=true" width="49%" alt="GitHub archive ledger"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shade555&layout=donut&hide_border=true&bg_color=100B1E&title_color=E6C9FF&text_color=E9E0F5" width="40%" alt="Language distribution instrument"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shade555&bg_color=100B1E&color=E9E0F5&line=9D7BE8&point=E5B6FF&area=true&hide_border=true" width="100%" alt="Contribution activity graph"/>
+### The chronometer
 
-### LeetCode arena
+<img src="https://streak-stats.demolab.com?user=Shade555&hide_border=true&background=100B1E&ring=C99AEF&fire=F0C7E5&currStreakLabel=E6C9FF&sideLabels=C9B9E8&dates=9A8BAE&currStreakNum=F4EAFE&sideNums=F4EAFE" width="78%" alt="Contribution streak chronometer"/>
 
-<img src="https://leetcard.jacoblin.cool/shade555?theme=dark&font=Fira%20Code&ext=contest" width="75%" alt="LeetCode statistics"/>
+### The constellation of activity
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shade555&bg_color=100B1E&color=E9E0F5&line=C49AE8&point=F1D2FF&area=true&hide_border=true&custom_title=ACTIVITY%20CONSTELLATION" width="100%" alt="GitHub contribution activity constellation"/>
+
+### The trial chamber
+
+<img src="https://leetcard.jacoblin.cool/shade555?theme=dark&font=Fira%20Code&ext=contest" width="78%" alt="LeetCode arena statistics"/>
 
 </div>
 
@@ -192,7 +199,7 @@ I'm interested in thoughtful collaborations, open-source projects, and opportuni
 
 <div align="center">
 
-<img src="assets/living-divider.gif" width="100%" alt="Animated ornamental divider"/>
+<img src="assets/living-divider.gif" width="100%" alt="Animated arcane divider"/>
 
 ### THANK YOU FOR VISITING THE ARCHIVE
 

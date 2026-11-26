@@ -1,0 +1,9 @@
+# SHADE555 — Arcane Systems Archive v2
+
+1. Copy README.md and the complete assets/ directory into the Shade555 profile repository.
+2. Commit and push both the README and assets together.
+3. The project gallery uses six custom SVG stained-glass panels.
+4. The observatory embeds live third-party GitHub/LeetCode statistics in a coordinated palette. The providers still control the internal chart geometry; GitHub README rendering does not allow arbitrary CSS/JS to redesign their internals.
+5. The SVG artwork and animated divider are original local assets. No emoji are used as decorative section icons.
+
+The project descriptions and profile details from the supplied README are retained. The original descriptions are grouped into a compact gallery plus a project-record section for readability.

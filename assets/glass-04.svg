@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="430" viewBox="0 0 360 430">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171226"/><stop offset=".52" stop-color="#292044"/><stop offset="1" stop-color="#101321"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b78be8" stop-opacity=".48"/><stop offset="1" stop-color="#4e8cba" stop-opacity=".16"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="360" height="430" rx="16" fill="url(#bg)"/>
+<path d="M28 402V128Q28 35 180 18Q332 35 332 128V402Z" fill="url(#glass)" stroke="#c99de8" stroke-width="5"/>
+<path d="M43 390V130Q43 50 180 34Q317 50 317 130V390Z" fill="none" stroke="#73558e" stroke-width="2"/>
+<path d="M180 20V390 M31 266H329 M65 77L295 344 M295 77L65 344" stroke="#9e7aba" stroke-opacity=".65" stroke-width="2"/>
+<path d="M28 128Q180 2 332 128 M28 266Q180 340 332 266" fill="none" stroke="#d9b7f1" stroke-width="2"/>
+<g filter="url(#glow)">
+          <path d="M180 66L251 108V192L180 234L109 192V108Z" fill="#3c315d" stroke="#d7b5ff" stroke-width="4"/>
+          <path d="M180 92L225 118V182L180 208L135 182V118Z" fill="#171a35" stroke="#8fd8ff" stroke-width="3"/>
+          <path d="M151 139L169 157L151 175 M176 175H207" fill="none" stroke="#f0c6ff" stroke-width="6"/>
+          <path d="M180 46V66 M180 234V254 M95 150H109 M251 150H265" stroke="#e6c6ff" stroke-width="4"/></g>
+<path d="M52 287H308" stroke="#c69ce5" stroke-width="2"/>
+<text x="180" y="322" fill="#f4e9ff" text-anchor="middle" font-family="Georgia,serif" font-size="22">Patchwork AI</text>
+<text x="180" y="350" fill="#c7a8df" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="3">ARCHIVE ENTRY 04</text>
+<path d="M125 374H235 M145 382H215" stroke="#8d6aaa" stroke-width="2"/>
+<path d="M180 364L188 374L180 384L172 374Z" fill="#e8caff"/>
+</svg>
