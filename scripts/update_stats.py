@@ -107,3 +107,6 @@ try:
 except Exception as e:
     unavailable('THE LEETCODE TRIAL SEAL',str(e)[:110])
 print('Statistics refresh completed; unavailable sources are marked explicitly.')
+
+from animate_svgs import animate_all
+print(f'Animated SVG assets refreshed: {animate_all()}')

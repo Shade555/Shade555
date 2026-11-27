@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/arcane-banner.svg" width="100%" alt="The Arcane Systems Archive — a moonlit Gothic metropolis" />
+<img src="assets/banner.gif" width="100%" alt="The Arcane Systems Archive — pixel-art fantasy metropolis banner" />
 
 <img src="assets/nameplate.svg" width="100%" alt="Shade555 — Keeper of the Arcane Systems Archive" />
 
@@ -41,7 +41,7 @@ I enjoy exploring datasets, finding patterns, building AI-powered tools, and tur
 
 ## II. The stained-glass codex
 
-*Eight windows into the things I've been building. Each pane has its own heraldry; open one to enter its repository.*
+*Nine windows into the things I've been building. Each pane has its own heraldry; open one to enter its repository.*
 
 <table>
 <tr>
@@ -112,16 +112,26 @@ A research build that ingests public news metadata, extracts disease signals, ag
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/Shade555/SubScout"><img src="assets/projects/subscout.svg" width="100%" alt="SubScout stained-glass project panel" /></a>
-**SUBSCOUT**<br/><sub>Subscription management without scattered reminders.</sub>
+<a href="https://github.com/Shade555/BluetoothTrackpad"><img src="assets/projects/bluetooth-trackpad.svg" width="100%" alt="Bluetooth Trackpad stained-glass project panel" /></a>
+**BLUETOOTH TRACKPAD**<br/><sub>Wireless touch, reimagined as a control surface.</sub>
 
-A responsive subscription manager with multi-currency totals, authentication, real-time updates, and browser, push, and email reminders.
+A Bluetooth trackpad project exploring wireless pointer control and touch-based interaction.
 
-`React` `Vite` `Supabase` `PostgreSQL`
-
-<a href="https://github.com/Shade555/SubScout">ENTER THE REPOSITORY ↗</a>
+<a href="https://github.com/Shade555/BluetoothTrackpad">ENTER THE REPOSITORY ↗</a>
 </td>
 <td width="50%" valign="top" align="center">
+<a href="https://github.com/Shade555/startup_intelligence_platform"><img src="assets/projects/startup-intelligence.svg" width="100%" alt="Startup Intelligence stained-glass project panel" /></a>
+**STARTUP INTELLIGENCE**<br/><sub>A new system taking shape.</sub>
+
+An in-progress startup intelligence platform. More details will be added as the project develops.
+
+`IN DEVELOPMENT`
+
+<a href="https://github.com/Shade555/startup_intelligence_platform">VIEW THE PROJECT ↗</a>
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top" align="center">
 <a href="https://github.com/Shade555?tab=repositories"><img src="assets/projects/experiments.svg" width="100%" alt="More experiments stained-glass project panel" /></a>
 **THE OUTER WINGS**<br/><sub>Experiments beyond the main archive.</sub>
 

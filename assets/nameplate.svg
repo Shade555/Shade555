@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150"><defs></defs><rect x="3" y="3" width="1194" height="144" rx="12" fill="#0d1220" stroke="#a98cc7" stroke-width="3"/><path d="M28 75 H220 M980 75 H1172" stroke="#b89bce" stroke-width="2"/><path d="M220 75 l24 -16 v32z M980 75 l-24 -16 v32z" fill="#b89bce"/><text x="600" y="78" fill="#f1eaff" text-anchor="middle" font-family="Georgia,serif" font-size="54" letter-spacing="12">SHADE555</text><text x="600" y="117" fill="#a9c6df" text-anchor="middle" font-family="Georgia,serif" font-size="16" letter-spacing="5">KEEPER OF THE ARCANE SYSTEMS ARCHIVE</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150"><defs><filter id="archive-glow"><feGaussianBlur stdDeviation="2.2"/></filter></defs><rect x="3" y="3" width="1194" height="144" rx="12" fill="#0d1220" stroke="#a98cc7" stroke-width="3"/><path d="M28 75 H220 M980 75 H1172" stroke="#b89bce" stroke-width="2"/><path d="M220 75 l24 -16 v32z M980 75 l-24 -16 v32z" fill="#b89bce"/><text x="600" y="78" fill="#f1eaff" text-anchor="middle" font-family="Georgia,serif" font-size="54" letter-spacing="12">SHADE555</text><text x="600" y="117" fill="#a9c6df" text-anchor="middle" font-family="Georgia,serif" font-size="16" letter-spacing="5">KEEPER OF THE ARCANE SYSTEMS ARCHIVE</text>
+
+<!-- ARCHIVE MOTION START -->
+<circle r="1.80" fill="#fff1c9" opacity="0" filter="url(#archive-glow)">
+  <animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.5;1" dur="5.8s" repeatCount="indefinite"/>
+  <animateMotion dur="11s" repeatCount="indefinite" path="M 12 15.0 H 1188.0"/>
+</circle>
+<circle r="1.12" fill="#c9eaff" opacity="0">
+  <animate attributeName="opacity" values="0;0.75;0" dur="7.2s" begin="1.7s" repeatCount="indefinite"/>
+  <animateMotion dur="13s" repeatCount="indefinite" path="M 1188.0 135.0 H 12"/>
+</circle>
+<!-- ARCHIVE MOTION END -->
+</svg>

@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="46" viewBox="0 0 1200 46"><defs></defs><path d="M0 23 H510 M690 23 H1200" stroke="#625879" stroke-width="2"/><path d="M600 4 L619 23 L600 42 L581 23Z" fill="#171b2b" stroke="#b69bce" stroke-width="2"/><circle cx="600" cy="23" r="5" fill="#d9c8ef"/><path d="M530 23 l12 -8 l12 8 l-12 8z M646 23 l12 -8 l12 8 l-12 8z" fill="#8d7ca8"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="46" viewBox="0 0 1200 46"><defs><filter id="archive-glow"><feGaussianBlur stdDeviation="2.2"/></filter></defs><path d="M0 23 H510 M690 23 H1200" stroke="#625879" stroke-width="2"/><path d="M600 4 L619 23 L600 42 L581 23Z" fill="#171b2b" stroke="#b69bce" stroke-width="2"/><circle cx="600" cy="23" r="5" fill="#d9c8ef"/><path d="M530 23 l12 -8 l12 8 l-12 8z M646 23 l12 -8 l12 8 l-12 8z" fill="#8d7ca8"/>
+
+<!-- ARCHIVE MOTION START -->
+<circle r="1.10" fill="#fff1c9" opacity="0" filter="url(#archive-glow)">
+  <animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.5;1" dur="5.8s" repeatCount="indefinite"/>
+  <animateMotion dur="11s" repeatCount="indefinite" path="M 12 5.0 H 1188.0"/>
+</circle>
+<circle r="0.68" fill="#c9eaff" opacity="0">
+  <animate attributeName="opacity" values="0;0.75;0" dur="7.2s" begin="1.7s" repeatCount="indefinite"/>
+  <animateMotion dur="13s" repeatCount="indefinite" path="M 1188.0 41.0 H 12"/>
+</circle>
+<!-- ARCHIVE MOTION END -->
+</svg>

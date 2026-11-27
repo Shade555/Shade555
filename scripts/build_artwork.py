@@ -60,12 +60,12 @@ for name,shape in sigils.items():
     (root/f'assets/sigils/{name}.svg').parent.mkdir(parents=True,exist_ok=True)
     (root/f'assets/sigils/{name}.svg').write_text(svg(36,36,f'<g fill="none" stroke="#c6a9df" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{shape}</g>'))
 
-# Eight unique stained-glass panels, with lead came geometry and restrained SMIL shimmer.
+# Nine unique stained-glass panels, with lead came geometry and restrained SMIL shimmer.
 projects=[
 ('digipico','DigiPico','#70b7d2','#c4a4e8','companion'),('frameon','Frameon','#8ec8d7','#c5a2dc','gallery'),
 ('proofpocket','ProofPocket','#d4b978','#a9c8dc','document'),('patchwork','Patchwork AI','#d68caa','#9fb8dc','patch'),
 ('interbrew','InterBrew','#d6a36f','#b5a0df','cup'),('signalwatch','Mumbai Signal Watch','#86b6d2','#a88fce','signal'),
-('subscout','SubScout','#6db7b5','#b4a0dc','orbit'),('experiments','More Experiments','#b29bda','#85b8d0','stars')]
+('bluetooth-trackpad','Bluetooth Trackpad','#75c8df','#b5a0df','bluetooth'),('startup-intelligence','Startup Intelligence','#d2ad72','#8caed8','intelligence'),('experiments','More Experiments','#b29bda','#85b8d0','stars')]
 for slug,title,c1,c2,motif in projects:
     defs=f'''<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="{c1}" stop-opacity=".62"/><stop offset="1" stop-color="{c2}" stop-opacity=".25"/></linearGradient><linearGradient id="shine"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>'''
     b=[ '<rect width="720" height="260" rx="18" fill="#0c1220"/>', '<path d="M18 242 V85 L360 15 L702 85 V242Z" fill="url(#glass)" stroke="#b8a2c9" stroke-width="5"/>', '<path d="M30 235 V91 L360 27 L690 91 V235Z" fill="none" stroke="#3c4055" stroke-width="7"/>', '<path d="M360 20 V240 M25 145 H695 M110 70 L250 240 M610 70 L470 240 M250 42 L110 235 M470 42 L610 235" stroke="#171b2b" stroke-width="9"/>', '<path d="M360 20 V240 M25 145 H695 M110 70 L250 240 M610 70 L470 240" stroke="#b69ecb" stroke-width="2" opacity=".8"/>']
@@ -76,6 +76,8 @@ for slug,title,c1,c2,motif in projects:
     elif motif=='patch': icon='<path d="M315 82 L345 52 L375 82 L405 52 L435 82 L405 112 L435 142 L405 172 L375 142 L345 172 L315 142 L345 112Z"/><path d="M345 112 H405 M375 82 V142"/>'
     elif motif=='cup': icon='<path d="M325 75 H395 L385 160 H335Z M395 90 Q440 88 415 130 H390 M340 175 H390"/><path d="M350 62 Q340 42 355 32 M375 62 Q365 42 380 32"/>'
     elif motif=='signal': icon='<circle cx="360" cy="115" r="58"/><path d="M360 55 V175 M300 115 H420 M318 73 L402 157 M402 73 L318 157"/><circle cx="360" cy="115" r="18"/>'
+    elif motif=='bluetooth': icon='<path d="M360 42 V188 L414 145 L306 85 L414 42 L360 86"/><path d="M360 115 L306 175 M360 115 L414 175"/><circle cx="360" cy="115" r="74" stroke-dasharray="8 10"/><path d="M285 205 H435" stroke-width="5"/>'
+    elif motif=='intelligence': icon='<path d="M360 45 L425 82 V148 L360 185 L295 148 V82Z"/><circle cx="360" cy="115" r="28"/><path d="M360 66 V87 M360 143 V164 M311 115 H332 M388 115 H409 M326 81 L341 96 M379 134 L394 149 M394 81 L379 96 M341 134 L326 149"/><circle cx="360" cy="115" r="62" stroke-dasharray="4 8"/>'
     elif motif=='orbit': icon='<circle cx="360" cy="115" r="20"/><ellipse cx="360" cy="115" rx="76" ry="30" transform="rotate(-28 360 115)"/><ellipse cx="360" cy="115" rx="76" ry="30" transform="rotate(55 360 115)"/><circle cx="418" cy="82" r="7"/>'
     else: icon='<path d="M360 48 L375 100 L430 115 L375 130 L360 182 L345 130 L290 115 L345 100Z"/><circle cx="360" cy="115" r="20"/>'
     b += [f'<g fill="none" stroke="#e1d5ed" stroke-width="3" stroke-linejoin="round" filter="url(#soft)" opacity=".28">{icon}</g>',f'<g fill="none" stroke="#e4d8ef" stroke-width="3" stroke-linejoin="round">{icon}</g>', '<path d="M18 18 H702 V242 H18Z" fill="none" stroke="#d5c4e4" stroke-width="2"/>', '<path d="M30 30 L690 30" stroke="#fff" stroke-opacity=".25"/>', '<rect x="-80" y="0" width="55" height="260" fill="url(#shine)" opacity=".22"><animate attributeName="x" values="-80;760" dur="8s" repeatCount="indefinite"/></rect>', f'<text x="360" y="218" fill="#f3eafa" text-anchor="middle" font-family="Georgia,serif" font-size="24" letter-spacing="5">{title.upper()}</text>', '<text x="360" y="239" fill="#c5b7d5" text-anchor="middle" font-family="monospace" font-size="10" letter-spacing="3">ARCHIVE WINDOW · OPEN</text>']
@@ -84,7 +86,7 @@ for slug,title,c1,c2,motif in projects:
 # Technology section plaques
 for file,label,sub in [('languages','LANGUAGE CONSTELLATION','THE GRAMMAR OF MACHINES'),('intelligence','INTELLIGENCE & DATA','PATTERNS · MODELS · SIGNALS'),('engineering','APPLICATION ENGINEERING','WEB · MOBILE · BACKEND'),('infrastructure','THE INFRASTRUCTURE WING','DATA STORES · TOOLING · SYSTEMS')]:
     (root/f'assets/tech/{file}.svg').parent.mkdir(parents=True,exist_ok=True)
-    (root/f'assets/tech/{file}.svg').write_text(svg(1200,64,f'<path d="M0 32 H240 M960 32 H1200" stroke="#665a7b" stroke-width="2"/><path d="M250 32 l12 -12 l12 12 l-12 12z M950 32 l-12 -12 l-12 12 l12 12z" fill="#a98cc7"/><text x="600" y="28" text-anchor="middle" fill="#e5d8f1" font-family="Georgia,serif" font-size="20" letter-spacing="5">{label}</text><text x="600" y="49" text-anchor="middle" fill="#9daac2" font-family="monospace" font-size="9" letter-spacing="3">{sub}</text>'))
+    (root/f'assets/tech/{file}.svg').write_text(svg(1200,64,f'<path d="M0 32 H240 M960 32 H1200" stroke="#665a7b" stroke-width="2"/><path d="M250 32 l12 -12 l12 12 l-12 12z M950 32 l-12 -12 l-12 12 l12 12z" fill="#a98cc7"/><text x="600" y="28" text-anchor="middle" fill="#e5d8f1" font-family="Georgia,serif" font-size="20" letter-spacing="5">{label.replace('&', '&amp;')}</text><text x="600" y="49" text-anchor="middle" fill="#9daac2" font-family="monospace" font-size="9" letter-spacing="3">{sub}</text>'))
 
 # Initial stats instruments: honest, explicitly waiting for workflow data.
 def stat_panel(title,subtitle,extra=''):
@@ -94,3 +96,6 @@ def stat_panel(title,subtitle,extra=''):
 (root/'assets/stats/language-astrolabe.svg').write_text(stat_panel('THE LANGUAGE ASTROLABE','TOP LANGUAGES BY REPOSITORY BYTE COUNT'))
 (root/'assets/stats/leetcode-seal.svg').write_text(stat_panel('THE LEETCODE TRIAL SEAL','SOLVED CHALLENGES · DIFFICULTY · CONTEST RANK','LeetCode public profile endpoint has not been queried yet.'))
 print('Artwork generated')
+
+from animate_svgs import animate_all
+print(f'Applied motion to {animate_all()} SVG assets.')

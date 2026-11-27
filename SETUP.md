@@ -15,4 +15,5 @@
 - The first commit includes custom-designed SVG artwork and honest “awaiting first observation” statistic panels. The workflow replaces those panels when it successfully retrieves data.
 - GitHub profile README rendering does not support arbitrary HTML/CSS layouts. This implementation uses tables, images, and SVG assets for reliable rendering.
 - SVG animation support can vary by client. The stained-glass panels use subtle SMIL shimmer; the rest of the design remains legible if animation is disabled.
-- The previous animated pixel-art GIF banner is not included because its frame assembly was not completed. The included `assets/arcane-banner.svg` is a custom vector illustration placeholder in the same Gothic fantasy palette; replace it with the pixel-art GIF once available.
+- The profile banner uses `assets/banner.gif`, copied from the image supplied for this revision. The supplied GIF currently contains one frame, so it renders as a still banner; replace it with a multi-frame GIF whenever you have an animated export.
+- Every SVG in `assets/` includes lightweight SMIL motion accents. GitHub and other SVG renderers may disable SMIL animation; the static artwork remains complete when motion is unsupported.
