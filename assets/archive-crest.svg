@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
-<defs><filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<path d="M80 8L132 35V88Q126 124 80 151Q34 124 28 88V35Z" fill="#100c1b" stroke="#a978d1" stroke-width="2"/>
-<path d="M80 22L119 43V86Q113 116 80 136Q47 116 41 86V43Z" fill="none" stroke="#65427f"/>
-<path d="M80 34V123 M48 80H112 M58 58L102 102 M102 58L58 102" stroke="#bd8be8" stroke-width="1.5" filter="url(#glow)"/>
-<path d="M80 48L91 69L113 80L91 91L80 113L69 91L47 80L69 69Z" fill="none" stroke="#f0d8ff" stroke-width="1.5"/>
-<circle cx="80" cy="80" r="5" fill="#f0d8ff"/>
-</svg>

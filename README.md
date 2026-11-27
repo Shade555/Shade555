@@ -1,191 +1,184 @@
 <div align="center">
 
-<img src="assets/arcane-city-banner.png" width="100%" alt="Gothic cyber-fantasy city beneath a luminous sky"/>
+<img src="assets/arcane-banner.svg" width="100%" alt="The Arcane Systems Archive — a moonlit Gothic metropolis" />
 
-<img src="assets/archive-crest.svg" width="88" alt="Arcane Systems Archive crest"/>
+<img src="assets/nameplate.svg" width="100%" alt="Shade555 — Keeper of the Arcane Systems Archive" />
 
-# SHADE555
-### THE ARCANE SYSTEMS ARCHIVE
-
-**Computer Engineering · Data Science · AI/ML · Full-Stack Engineering**
+**COMPUTER ENGINEERING · DATA SCIENCE · AI/ML · FULL-STACK ENGINEERING**
 
 *“Turning patterns into insight, and ideas into systems.”*
 
-[GitHub](https://github.com/Shade555) &nbsp; ◇ &nbsp; [LinkedIn](https://www.linkedin.com/in/slevin-cordeiro-76b2362a0/) &nbsp; ◇ &nbsp; [Visitor log](https://komarev.com/ghpvc/?username=Shade555&style=flat-square&color=8d63ad&label=VISITORS)
+<a href="https://github.com/Shade555"><img src="https://img.shields.io/badge/GITHUB-SHADE555-171326?style=for-the-badge&logo=github&logoColor=DCCBFF" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/slevin-cordeiro-76b2362a0/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-171326?style=for-the-badge&logo=linkedin&logoColor=B9DFFF" alt="LinkedIn" /></a>
+<a href="https://komarev.com/ghpvc/?username=Shade555"><img src="https://komarev.com/ghpvc/?username=Shade555&style=for-the-badge&color=7154A6&label=VISITORS" alt="Profile visitors" /></a>
 
-`SYSTEM ONLINE` &nbsp; · &nbsp; `ACCESS: BUILDER` &nbsp; · &nbsp; `REALM: DATA × INTELLIGENCE`
+<img src="assets/divider.svg" width="100%" alt="Ornamental divider" />
 
-<img src="assets/living-divider.gif" width="100%" alt="Animated arcane divider"/>
+`SYSTEM: ONLINE`　·　`ACCESS: BUILDER`　·　`REALM: DATA × INTELLIGENCE`
 
 </div>
 
-## I. The mind behind the mechanism
+## I. The archivist
 
 I'm a Computer Engineering student pursuing an **Honours in Data Science**, interested in the space where data, intelligent systems, and software engineering meet.
 
 I enjoy exploring datasets, finding patterns, building AI-powered tools, and turning complex ideas into useful products. My work spans Android engineering, full-stack platforms, LLM-powered applications, computer vision, and data-driven research prototypes.
 
-| FIELD NOTES | CURRENT PURSUITS |
-|:--|:--|
-| **Researching** | Data Science, Machine Learning, AI systems, and applied analytics |
-| **Constructing** | Full-stack products, LLM applications, agents, and automation |
-| **Investigating** | How raw information becomes meaningful decisions |
-| **Method** | Learn by building, breaking, debugging, and rebuilding |
+<table>
+<tr>
+<td width="50%" valign="top"><img src="assets/sigils/curiosity.svg" width="34" align="left" alt="Curiosity sigil" /> **The pursuit**<br/>Data Science, Machine Learning, AI systems, and applied analytics.</td>
+<td width="50%" valign="top"><img src="assets/sigils/engineering.svg" width="34" align="left" alt="Engineering sigil" /> **The craft**<br/>Full-stack products, LLMs, agents, automation, and intelligent applications.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><img src="assets/sigils/insight.svg" width="34" align="left" alt="Insight sigil" /> **The question**<br/>How can raw information become meaningful decisions?</td>
+<td width="50%" valign="top"><img src="assets/sigils/iteration.svg" width="34" align="left" alt="Iteration sigil" /> **The method**<br/>Build, break, debug, learn, and rebuild.</td>
+</tr>
+</table>
 
-> **CURRENT QUEST** — Build systems that are not only intelligent, but genuinely useful.
+> **CURRENT QUEST**　Build systems that are not only intelligent, but genuinely useful.
 
-<img src="assets/ornate-divider.svg" width="100%" alt="Ornamental divider"/>
+<img src="assets/divider.svg" width="100%" alt="Ornamental divider" />
 
-## II. The stained-glass project gallery
+## II. The stained-glass codex
 
-*Six instruments from the archive. Each window records a different kind of work.*
+*Eight windows into the things I've been building. Each pane has its own heraldry; open one to enter its repository.*
 
 <table>
 <tr>
-<td width="33%" align="center" valign="top">
-<img src="assets/glass-01.svg" width="100%" alt="DigiPico stained-glass project panel"/>
-**01 · DigiPico**
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Shade555/DigiPico"><img src="assets/projects/digipico.svg" width="100%" alt="DigiPico stained-glass project panel" /></a>
+**DIGIPICO**<br/><sub>An AI companion that makes technology less intimidating.</sub>
 
-An AI companion that makes technology less intimidating.
+A gamified, mobile-first learning companion with a friendly AI tutor, personalised learning paths, quizzes, a JavaScript sandbox, XP, streaks, and achievements.
 
 `Next.js` `Gemma` `Mastra` `MongoDB` `TabPFN` `Capacitor`
 
-[OPEN DOSSIER →](https://github.com/Shade555/DigiPico)
+<a href="https://github.com/Shade555/DigiPico">ENTER THE REPOSITORY ↗</a>
 </td>
-<td width="33%" align="center" valign="top">
-<img src="assets/glass-02.svg" width="100%" alt="Frameon stained-glass project panel"/>
-**02 · Frameon**
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Shade555/Frameon"><img src="assets/projects/frameon.svg" width="100%" alt="Frameon stained-glass project panel" /></a>
+**FRAMEON**<br/><sub>A gallery with a second layer of intelligence.</sub>
 
-A gallery with a second layer of intelligence.
+An Android gallery and security suite featuring real-time media sync, background OCR scanning for sensitive information, spatial text analysis, Luhn validation, and biometric-protected storage.
 
 `Kotlin` `Jetpack Compose` `ML Kit` `WorkManager` `Hilt`
 
-[OPEN DOSSIER →](https://github.com/Shade555/Frameon)
-</td>
-<td width="33%" align="center" valign="top">
-<img src="assets/glass-03.svg" width="100%" alt="ProofPocket stained-glass project panel"/>
-**03 · ProofPocket**
-
-Paperwork in. Evidence-backed clarity out.
-
-`Next.js` `TypeScript` `Gemma` `MongoDB` `OCR`
-
-[OPEN DOSSIER →](https://github.com/Shade555/ProofPocket)
+<a href="https://github.com/Shade555/Frameon">ENTER THE REPOSITORY ↗</a>
 </td>
 </tr>
 <tr>
-<td colspan="3">
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Shade555/ProofPocket"><img src="assets/projects/proofpocket.svg" width="100%" alt="ProofPocket stained-glass project panel" /></a>
+**PROOFPOCKET**<br/><sub>Paperwork in. Evidence-backed clarity out.</sub>
 
 An open-weight AI paperwork agent that extracts and organises requirements, maps documents to evidence, flags missing information, and keeps a human in control of final decisions.
 
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-<img src="assets/glass-04.svg" width="100%" alt="Patchwork AI stained-glass project panel"/>
-**04 · Patchwork AI**
+`Next.js` `TypeScript` `Gemma` `MongoDB` `OCR`
 
-A local-first assistant for messy data.
+<a href="https://github.com/Shade555/ProofPocket">ENTER THE REPOSITORY ↗</a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Shade555/patchwork-ai"><img src="assets/projects/patchwork.svg" width="100%" alt="Patchwork AI stained-glass project panel" /></a>
+**PATCHWORK AI**<br/><sub>A local-first assistant for messy data.</sub>
+
+A Windows desktop tool for profiling and cleaning CSV/XLSX data, combining deterministic checks with local open-weight AI suggestions and human-reviewed corrections.
 
 `C#` `.NET 8` `WPF` `Ollama` `ClosedXML`
 
-[OPEN DOSSIER →](https://github.com/Shade555/patchwork-ai)
+<a href="https://github.com/Shade555/patchwork-ai">ENTER THE REPOSITORY ↗</a>
 </td>
-<td width="33%" align="center" valign="top">
-<img src="assets/glass-05.svg" width="100%" alt="InterBrew stained-glass project panel"/>
-**05 · InterBrew**
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Shade555/InterBrew"><img src="assets/projects/interbrew.svg" width="100%" alt="InterBrew stained-glass project panel" /></a>
+**INTERBREW**<br/><sub>A gamified space for technical interview preparation.</sub>
 
-A gamified space for technical interview preparation.
+A platform combining structured learning, AI-assisted mock interviews, interactive technical challenges, and performance tracking.
 
 `Next.js` `React` `TypeScript` `Supabase` `Groq`
 
-[OPEN DOSSIER →](https://github.com/Shade555/InterBrew)
+<a href="https://github.com/Shade555/InterBrew">ENTER THE REPOSITORY ↗</a>
 </td>
-<td width="33%" align="center" valign="top">
-<img src="assets/glass-06.svg" width="100%" alt="Mumbai Signal Watch stained-glass project panel"/>
-**06 · Mumbai Signal Watch**
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Shade555/spatiotemporal-disease-tracker"><img src="assets/projects/signalwatch.svg" width="100%" alt="Mumbai Signal Watch stained-glass project panel" /></a>
+**MUMBAI SIGNAL WATCH**<br/><sub>A spatiotemporal disease-news signal tracker.</sub>
 
-A spatiotemporal disease-news signal tracker.
+A research build that ingests public news metadata, extracts disease signals, aggregates activity, and highlights unusual changes through a live dashboard. It tracks news signals, not confirmed case counts.
 
 `Next.js` `Python` `NLP` `Supabase` `NewsAPI`
 
-[OPEN DOSSIER →](https://github.com/Shade555/spatiotemporal-disease-tracker)
+<a href="https://github.com/Shade555/spatiotemporal-disease-tracker">ENTER THE REPOSITORY ↗</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Shade555/SubScout"><img src="assets/projects/subscout.svg" width="100%" alt="SubScout stained-glass project panel" /></a>
+**SUBSCOUT**<br/><sub>Subscription management without scattered reminders.</sub>
+
+A responsive subscription manager with multi-currency totals, authentication, real-time updates, and browser, push, and email reminders.
+
+`React` `Vite` `Supabase` `PostgreSQL`
+
+<a href="https://github.com/Shade555/SubScout">ENTER THE REPOSITORY ↗</a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Shade555?tab=repositories"><img src="assets/projects/experiments.svg" width="100%" alt="More experiments stained-glass project panel" /></a>
+**THE OUTER WINGS**<br/><sub>Experiments beyond the main archive.</sub>
+
+Open-source AI builds, hackathon prototypes, data projects, automation, and web experiments.
+
+`Mundane` · `Space Arcade Canvas` · `Shadow Text Adventure` · `ProofPocket`
+
+<a href="https://github.com/Shade555?tab=repositories">BROWSE ALL REPOSITORIES ↗</a>
 </td>
 </tr>
 </table>
 
-**Project records**
+<img src="assets/divider.svg" width="100%" alt="Ornamental divider" />
 
-- **DigiPico:** A gamified, mobile-first learning companion with a friendly AI tutor, personalised learning paths, quizzes, a JavaScript sandbox, XP, streaks, and achievements.
-- **Frameon:** An Android gallery and security suite featuring real-time media sync, background OCR scanning for sensitive information, spatial text analysis, Luhn validation, and biometric-protected storage.
-- **Patchwork AI:** A Windows desktop tool for profiling and cleaning CSV/XLSX data, combining deterministic checks with local open-weight AI suggestions and human-reviewed corrections.
-- **InterBrew:** A platform combining structured learning, AI-assisted mock interviews, interactive technical challenges, and performance tracking.
-- **Mumbai Signal Watch:** A research build that ingests public news metadata, extracts disease signals, aggregates activity, and highlights unusual changes through a live dashboard. It tracks news signals, not confirmed case counts.
+## III. The technology reliquary
 
 <div align="center">
 
-[VIEW THE COMPLETE REPOSITORY ARCHIVE →](https://github.com/Shade555?tab=repositories)
+<img src="assets/tech/languages.svg" width="100%" alt="Language constellation" />
+
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,kotlin,c,cs,html,css,sql&theme=dark" alt="Python, Java, JavaScript, TypeScript, Kotlin, C, C sharp, HTML, CSS, SQL" />
+
+<img src="assets/tech/intelligence.svg" width="100%" alt="AI and data constellation" />
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&theme=dark" alt="TensorFlow, PyTorch, OpenCV, scikit-learn" />
+
+<img src="assets/tech/engineering.svg" width="100%" alt="Web and application engineering constellation" />
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,django,tailwind,android&theme=dark" alt="React, Next.js, Node.js, Flask, Django, Tailwind, Android" />
+
+<img src="assets/tech/infrastructure.svg" width="100%" alt="Infrastructure constellation" />
+
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,supabase,firebase,docker,git,github,linux,aws&theme=dark" alt="MongoDB, PostgreSQL, MySQL, Supabase, Firebase, Docker, Git, GitHub, Linux, AWS" />
 
 </div>
 
-<img src="assets/living-divider.gif" width="100%" alt="Animated arcane divider"/>
+<img src="assets/divider.svg" width="100%" alt="Ornamental divider" />
 
-## III. The technology grimoire
+## IV. The observatory — live statistics
 
-*The instruments, languages, and frameworks in the working collection.*
+*The instruments below are generated from account data. They are not hard-coded counters. The GitHub observatory refreshes on a schedule; the LeetCode instrument updates when its public endpoint responds.*
 
 <div align="center">
 
-**LANGUAGES & FOUNDATIONS**
+<img src="assets/stats/github-ledger.svg" width="100%" alt="Custom GitHub statistics ledger" />
 
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,kotlin,c,cs,html,css,sql&theme=dark" alt="Programming languages"/>
+<img src="assets/stats/contribution-constellation.svg" width="100%" alt="GitHub contribution constellation" />
 
-**AI · DATA · INTELLIGENCE**
+<img src="assets/stats/language-astrolabe.svg" width="100%" alt="Programming language astrolabe" />
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn&theme=dark" alt="AI and data tools"/>
-
-**WEB · MOBILE · BACKEND**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,flask,django,tailwind,android&theme=dark" alt="Web, mobile and backend tools"/>
-
-**DATABASES · TOOLS · INFRASTRUCTURE**
-
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,supabase,firebase,docker,git,github,linux,aws&theme=dark" alt="Databases and infrastructure"/>
+<img src="assets/stats/leetcode-seal.svg" width="100%" alt="LeetCode challenge seal and statistics" />
 
 </div>
 
-<img src="assets/ornate-divider.svg" width="100%" alt="Ornamental divider"/>
+<img src="assets/divider.svg" width="100%" alt="Ornamental divider" />
 
-## IV. The observatory
-
-*Live readings from the public engineering record.*
-
-<div align="center">
-
-<img src="assets/observatory-header.svg" width="100%" alt="Observatory title ornament"/>
-
-### The archive ledger
-
-<img src="https://github-readme-stats.vercel.app/api?username=Shade555&show_icons=true&hide_border=true&bg_color=100B1E&title_color=E6C9FF&text_color=E9E0F5&icon_color=BD91E8&ring_color=BD91E8&rank_icon=github" width="49%" alt="GitHub archive ledger"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shade555&layout=donut&hide_border=true&bg_color=100B1E&title_color=E6C9FF&text_color=E9E0F5" width="40%" alt="Language distribution instrument"/>
-
-### The chronometer
-
-<img src="https://streak-stats.demolab.com?user=Shade555&hide_border=true&background=100B1E&ring=C99AEF&fire=F0C7E5&currStreakLabel=E6C9FF&sideLabels=C9B9E8&dates=9A8BAE&currStreakNum=F4EAFE&sideNums=F4EAFE" width="78%" alt="Contribution streak chronometer"/>
-
-### The constellation of activity
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shade555&bg_color=100B1E&color=E9E0F5&line=C49AE8&point=F1D2FF&area=true&hide_border=true&custom_title=ACTIVITY%20CONSTELLATION" width="100%" alt="GitHub contribution activity constellation"/>
-
-### The trial chamber
-
-<img src="https://leetcard.jacoblin.cool/shade555?theme=dark&font=Fira%20Code&ext=contest" width="78%" alt="LeetCode arena statistics"/>
-
-</div>
-
-<img src="assets/ornate-divider.svg" width="100%" alt="Ornamental divider"/>
-
-## V. Guilds, fieldwork & affiliations
+## V. Deeds beyond the archive
 
 - **Open source:** Contributions through GirlScript Summer of Code and Social Summer of Code.
 - **Hacktoberfest:** Participated in the 2026 Open Source AI Challenge, working on projects including Mundane, DigiPico, Patchwork AI, and ProofPocket.
@@ -199,14 +192,12 @@ I'm interested in thoughtful collaborations, open-source projects, and opportuni
 
 <div align="center">
 
-<img src="assets/living-divider.gif" width="100%" alt="Animated arcane divider"/>
+<img src="assets/closing-gate.svg" width="100%" alt="The gates of the Arcane Systems Archive" />
 
-### THANK YOU FOR VISITING THE ARCHIVE
+**Thanks for exploring my corner of the internet.**
 
 *May your models converge and your builds never break in production.*
 
-[RETURN TO THE GITHUB REALM →](https://github.com/Shade555)
-
-<sub>SHADE555 · BUILDING A BETTER TOMORROW, ONE SYSTEM AT A TIME</sub>
+<a href="https://github.com/Shade555"><img src="https://img.shields.io/badge/RETURN_TO_THE_ARCHIVE-171326?style=for-the-badge&logo=github&logoColor=DCCBFF" alt="Return to GitHub" /></a>
 
 </div>
